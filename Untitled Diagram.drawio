@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T16:46:50.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="30ljhe4-UZPtgYUQ3REJ" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T16:53:02.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="l1O52W___OcLJr10qzgw" version="14.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="919" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="VYM7CoJNfjb9k-UQckY3-1" value="Dashboard UI" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VYM7CoJNfjb9k-UQckY3-3" value="&lt;b&gt;Devops Tools&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="VYM7CoJNfjb9k-UQckY3-3" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;CI/CD Tools -&amp;gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="260" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VYM7CoJNfjb9k-UQckY3-6" value="Github" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -28,13 +28,13 @@
         <mxCell id="VYM7CoJNfjb9k-UQckY3-8" value="Sonarqube" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="375" y="275" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VYM7CoJNfjb9k-UQckY3-9" value="Github" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="275" width="50" height="30" as="geometry" />
+        <mxCell id="VYM7CoJNfjb9k-UQckY3-9" value="Artifactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VYM7CoJNfjb9k-UQckY3-12" value=".. n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="275" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VYM7CoJNfjb9k-UQckY3-21" value="&lt;b&gt;Collectors&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="VYM7CoJNfjb9k-UQckY3-21" value="&lt;b&gt;Collectors&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#B3B3B3;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="360" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VYM7CoJNfjb9k-UQckY3-22" value="C1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
