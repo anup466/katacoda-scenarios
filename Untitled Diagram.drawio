@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T13:28:26.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="0lteoK5UWOfoIAuGH-CM" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T14:00:21.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="gzjUB5flDSlEq64v8GCD" version="14.6.10" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
-    <mxGraphModel dx="2128" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1028" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,22 +53,6 @@
         <mxCell id="9hBKPDzoitwpIBdzFDQ7-60" value="Tag: 1.2.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="862.25" y="140" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-2" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="500" as="sourcePoint" />
-            <mxPoint x="350" y="500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-3" value="Advanced GitHub Security(shift left)" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontStyle=1" connectable="0" vertex="1" parent="KQM4Reizt8oM2KdJNRwN-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-30" y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-4" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="KQM4Reizt8oM2KdJNRwN-2">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="160" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KQM4Reizt8oM2KdJNRwN-6" value="&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;Dependencies&lt;/font&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=none;fillColor=#B5E3Fe;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="460" y="395" width="30" height="35" as="geometry" />
         </mxCell>
@@ -103,7 +87,7 @@
           <mxGeometry x="480" y="600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KQM4Reizt8oM2KdJNRwN-22" value="&lt;b&gt;SCA&lt;/b&gt;(finding bad patterns and data flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="109.5" y="415" width="230" height="20" as="geometry" />
+          <mxGeometry x="108.25" y="415" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KQM4Reizt8oM2KdJNRwN-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KQM4Reizt8oM2KdJNRwN-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -139,16 +123,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-28" value="&lt;b&gt;Dependency review&lt;/b&gt;(code reviewers with insights on dependencies changes in PR)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5.5" y="375" width="460" height="20" as="geometry" />
+        <mxCell id="KQM4Reizt8oM2KdJNRwN-28" value="&lt;b&gt;Dependency review&lt;/b&gt;(code reviewers with insights on &lt;br&gt;dependencies changes in PR)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="108.25" y="367.5" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-32" value="&lt;b&gt;Dependency graph(&lt;/b&gt;&lt;span style=&quot;text-align: left&quot;&gt;scanning the manifest files for supported&amp;nbsp; package managers and building a graph from all dependent software)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5.5" y="270" width="720" height="20" as="geometry" />
+        <mxCell id="KQM4Reizt8oM2KdJNRwN-32" value="&lt;b&gt;Dependency graph(&lt;/b&gt;&lt;span style=&quot;text-align: left&quot;&gt;scanning the manifest files for supported&amp;nbsp; package managers &lt;br&gt;and building a graph from all dependent software)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="109.5" y="265" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KQM4Reizt8oM2KdJNRwN-10" target="KQM4Reizt8oM2KdJNRwN-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KQM4Reizt8oM2KdJNRwN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;plain-blue;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#000000;" edge="1" parent="1">
+        <mxCell id="KQM4Reizt8oM2KdJNRwN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;plain-blue;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#000000;startArrow=none;" edge="1" parent="1" source="KQM4Reizt8oM2KdJNRwN-44">
           <mxGeometry x="360" y="500" as="geometry">
             <mxPoint x="360" y="500" as="sourcePoint" />
             <mxPoint x="620" y="500" as="targetPoint" />
@@ -167,15 +148,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KQM4Reizt8oM2KdJNRwN-40" value="&lt;b&gt;Credential Leaks&lt;/b&gt;(secret key, api tokens)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="620" width="140" height="30" as="geometry" />
+          <mxGeometry x="590" y="570" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KQM4Reizt8oM2KdJNRwN-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KQM4Reizt8oM2KdJNRwN-19" target="KQM4Reizt8oM2KdJNRwN-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="512.5" y="660" as="sourcePoint" />
             <mxPoint x="547.5" y="715" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="543" y="600" />
-              <mxPoint x="543" y="643" />
+              <mxPoint x="548" y="600" />
+              <mxPoint x="548" y="590" />
+              <mxPoint x="570" y="590" />
+              <mxPoint x="570" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQM4Reizt8oM2KdJNRwN-42" value="&lt;b&gt;SAST, CodeQL&lt;/b&gt;(Vulnerabilities &amp;amp; flaws in code" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="365" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KQM4Reizt8oM2KdJNRwN-44" value="&lt;span style=&quot;font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;Advanced GitHub Security&lt;/span&gt;(shift left)" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="321.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KQM4Reizt8oM2KdJNRwN-49" value="" style="curved=1;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=18;entryX=0.114;entryY=-0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KQM4Reizt8oM2KdJNRwN-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="360" as="sourcePoint" />
+            <mxPoint x="670" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="360" />
+              <mxPoint x="670" y="310" />
+              <mxPoint x="693" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
